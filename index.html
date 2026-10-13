@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Little Snowflake Coffee: cafetería de especialidad, café recién hecho y pastelería artesanal en un ambiente cálido y acogedor.">
+
+    <title>Little Snowflake Coffee | Café y Pastelería Artesanal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❄️</text></svg>">
+
+</head>
+
+<body>
+
+    <header class="header" id="inicio">
+        <nav class="nav" aria-label="Navegación principal">
+
+            <a href="#inicio" class="logo"
+                aria-label="Little Snowflake Coffee, ir al inicio">
+                Little Snowflake<span>.</span>
+                <span class="logo-coffee">Coffee</span>
+            </a>
+
+            <ul class="nav-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" aria-labelledby="hero-title">
+
+            <div class="hero-content">
+                <p class="eyebrow">CAFÉ DE ESPECIALIDAD · PASTELERÍA ARTESANAL</p>
+
+                <h1 id="hero-title">
+                    Un buen café,<br>
+                    un momento <span>para vos.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Los pequeños momentos merecen grandes sabores.
+                    Vení a disfrutar de café recién hecho, cosas ricas
+                    y la calidez de sentirte como en casa.
+                </p>
+
+                <a href="#productos" class="btn btn-primary">
+                    Descubrí nuestro menú
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="img/cafeteria.jpg"
+                    alt="Interior acogedor de una cafetería con mesas y ambiente cálido"
+                    fetchpriority="high">
+            </div>
+
+        </section>
+
+        <section class="products section-padding" id="productos"
+                aria-labelledby="products-title">
+
+            <div class="section-heading">
+                <p class="eyebrow">HECHO CON AMOR</p>
+                <h2 id="products-title">Nuestros favoritos</h2>
+                <p>
+                    Sabores que acompañan tus mañanas, tus tardes
+                    y todos esos momentos que merecen una pausa.
+                </p>
+            </div>
+
+            <div class="products-container">
+
+                <article class="product-card">
+                    <img
+                        src="img/espresso.jpg"
+                        alt="Taza de café espresso recién preparado"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Espresso de la casa</h3>
+                        <p>Café intenso, aromático y preparado al momento.</p>
+                        <p class="price">$3.500</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="img/latte.jpg"
+                        alt="Café con leche servido en una taza"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Latte cremoso</h3>
+                        <p>Espresso con leche vaporizada y una textura suave.</p>
+                        <p class="price">$4.200</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="img/medialunas.jpg"
+                        alt="Medialunas y productos de panadería artesanal"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Medialunas</h3>
+                        <p>Doradas, tiernas y perfectas para acompañar tu café.</p>
+                        <p class="price">$2.800</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="img/torta.jpg"
+                        alt="Torta artesanal de chocolate"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Porción de torta</h3>
+                        <p>Una porción dulce elaborada con ingredientes seleccionados.</p>
+                        <p class="price">$4.500</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="img/tostadas.jpg"
+                        alt="Tostadas servidas para un desayuno"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Tostadas de campo</h3>
+                        <p>Pan tostado con acompañamientos para empezar bien el día.</p>
+                        <p class="price">$4.000</p>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="img/capuccino.jpg"
+                        alt="Café cappuccino con leche y espuma"
+                        loading="lazy">
+
+                    <div class="product-info">
+                        <h3>Cappuccino</h3>
+                        <p>La combinación justa de café, leche y espuma cremosa.</p>
+                        <p class="price">$4.500</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="about section-padding" id="nosotros"
+                aria-labelledby="about-title">
+
+            <div class="about-image">
+                <img
+                    src="img/preparacion-cafe.jpg"
+                    alt="Preparación artesanal de café en una cafetería"
+                    loading="lazy">
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">NUESTRA HISTORIA</p>
+
+                <h2 id="about-title">
+                    Más que café,<br>
+                    un lugar para encontrarnos.
+                </h2>
+
+                <p>
+                    Little Snowflake Coffee nació de una idea sencilla:
+                    crear un espacio donde el tiempo pase un poquito
+                    más despacio y cada persona se sienta bienvenida.
+                </p>
+
+                <p>
+                    Nos inspiran el aroma del café recién molido,
+                    las recetas caseras y las charlas que empiezan
+                    con un café y terminan creando recuerdos.
+                </p>
+
+                <a href="#contacto" class="btn btn-secondary">
+                    Vení a conocernos
+                </a>
+            </div>
+        </section>
+
+        <section class="reviews section-padding" id="resenas"
+                aria-labelledby="reviews-title">
+
+            <div class="section-heading">
+                <p class="eyebrow">PALABRAS QUE NOS ALEGRAN</p>
+                <h2 id="reviews-title">Lo que dicen nuestros clientes</h2>
+                <p>
+                    Los pequeños detalles hacen que cada visita sea especial.
+                </p>
+            </div>
+
+            <div class="reviews-container">
+
+                <article class="review-card">
+                    <p class="review-stars" aria-label="5 de 5 estrellas">
+                        ★★★★★
+                    </p>
+                    <blockquote>
+                        "Un lugar hermoso para desayunar.
+                        El café es riquísimo y las medialunas son increíbles."
+                    </blockquote>
+                    <p class="review-author">— Martina G.</p>
+                </article>
+
+                <article class="review-card">
+                    <p class="review-stars" aria-label="5 de 5 estrellas">
+                        ★★★★★
+                    </p>
+                    <blockquote>
+                        "La ambientación es súper cálida.
+                        Ideal para leer, trabajar o compartir una merienda."
+                    </blockquote>
+                    <p class="review-author">— Nicolás R.</p>
+                </article>
+
+                <article class="review-card">
+                    <p class="review-stars" aria-label="5 de 5 estrellas">
+                        ★★★★★
+                    </p>
+                    <blockquote>
+                        "La atención es excelente y todo se siente casero.
+                        Ya se convirtió en mi cafetería favorita."
+                    </blockquote>
+                    <p class="review-author">— Camila P.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="contact section-padding" id="contacto"
+                aria-labelledby="contact-title">
+
+            <div class="contact-content">
+                <p class="eyebrow">NOS ENCANTARÍA CONOCERTE</p>
+
+                <h2 id="contact-title">¿Hablamos con un café?</h2>
+
+                <p>
+                    ¿Tenés alguna consulta, sugerencia o simplemente
+                    querés saludarnos? Escribinos y te responderemos
+                    a la brevedad.
+                </p>
+
+                <div class="contact-details">
+                    <p>
+                        <strong>Dirección:</strong>
+                        Calle Ficticia 123, Buenos Aires
+                    </p>
+                    <p>
+                        <strong>Horario:</strong>
+                        Lunes a sábado, de 8 a 20 h
+                    </p>
+                    <p>
+                        <strong>Correo:</strong>
+                        hola@cafedebarrio.example
+                    </p>
+                </div>
+            </div>
+
+            <form
+                class="contact-form"
+                action="https://formspree.io/f/xzedjkoj"
+                method="POST">
+
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="¿Cómo te llamás?"
+                        autocomplete="name"
+                        minlength="2"
+                        maxlength="80"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tu@email.com"
+                        autocomplete="email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        maxlength="2000"
+                        placeholder="Escribí tu mensaje..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Enviar mensaje
+                </button>
+
+                <p class="form-note">
+                    Completá los campos para enviarnos tu consulta.
+                </p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <a href="#inicio" class="logo footer-logo">
+            Little Snowflake<span>.</span>
+            <span class="logo-coffee">Coffee</span>
+        </a>
+
+        <p>
+            Café rico, cosas caseras y momentos compartidos.
+        </p>
+
+        <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        <p class="copyright">
+            &copy; 2026 Little Snowflake Coffee.
+        </p>
+
+    </footer>
+
+</body>
+</html>
